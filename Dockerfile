@@ -1,4 +1,4 @@
-FROM runmymind/docker-android-sdk:alpine-lazydl
+FROM runmymind/docker-android-sdk:ubuntu-lazydl
 
 ENV GRADLE_HOME=/opt/gradle/gradle-4.9/bin
 ENV PATH=$PATH:${GRADLE_HOME}
