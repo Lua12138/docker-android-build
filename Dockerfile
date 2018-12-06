@@ -7,8 +7,7 @@ ADD checkSdk.sh /bin/checkSdk.sh
 
 WORKDIR /home
 
-RUN chmod +x /bin/checkSdk.sh && \
-    chmod +x /home/gradlew
+RUN chmod +x /bin/checkSdk.sh
 
 VOLUME [ "/opt/android-sdk-linux" ]
 
