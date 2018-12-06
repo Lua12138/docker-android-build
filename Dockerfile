@@ -12,4 +12,4 @@ RUN chmod +x /bin/checkSdk.sh && \
 
 VOLUME [ "/opt/android-sdk-linux" ]
 
-CMD [ "sh", "-c", "checkSdk.sh && /home/gradlew build" ]
+CMD [ "sh", "-c", "checkSdk.sh" ]
